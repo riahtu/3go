@@ -13,5 +13,9 @@
     "url": "http://example.com"
   },
   "ime_default_softkey_bar": true,
-  "cursor" : true
+  "cursor" : true,
+  "permissions": {
+    "geolocation": {
+      "description": "Required for autocompletion in the share screen"
+  }
 }
