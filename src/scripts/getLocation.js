@@ -17,7 +17,7 @@ function success(position) {
   userLocation.longitude = position.coords.longitude;
 
   if (userLocation.latitude && userLocation.longitude) {
-    console.log(`https://www.openstreetmap.org/#map=18/${latitude}/${longitude}`)
+    console.log(`https://www.openstreetmap.org/#map=18/${userLocation.latitude}/${userLocation.longitude}`)
   }
 }
 
