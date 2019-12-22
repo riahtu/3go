@@ -18,4 +18,5 @@
     "geolocation": {
       "description": "Required for autocompletion in the share screen"
   }
-}
+  }
+} 
